@@ -10,7 +10,7 @@ Here are some things I learned from [The Ruby Koans](http://rubykoans.com/):
  - ArgumentError is raised when a method is called with an incorrect number of arguments
  - If there is no explicit return in a method, it will return the bottom line
  - Most everything in Ruby is true (except for false and nil)
- - The each method can also be called using curly brace blocks. Ex: array.each { |item| sum += item }
+ - The each method can also be called using curly brace blocks. Ex: "array.each { |item| sum += item }"
  - A lot of the operations in the about_iteration koan seemed very useful (collect, select, find, etc.)
  - Two dots (..) create inclusive ranges whereas three dots (...) exclude the high value
  - Classes can be reopened and new methods can be added while still preserving existing methods
