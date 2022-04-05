@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Three things I learned from The Ruby Koans
+title: Things I learned from The Ruby Koans
 ---
 
 Here are some things I learned from [The Ruby Koans](http://rubykoans.com/):
@@ -13,6 +13,8 @@ Here are some things I learned from [The Ruby Koans](http://rubykoans.com/):
  - The each method can also be called using curly brace blocks. Ex: array.each { |item| sum += item }
  - A lot of the operations in the about_iteration koan seemed very useful (collect, select, find, etc.)
  - Two dots (..) create inclusive ranges whereas three dots (...) exclude the high value
+ - Classes can be reopened and new methods can be added while still preserving existing methods
+ - You can define methods on individual objects
 
 These are some outstanding questions I had based on the Ruby Koans:
 
@@ -21,12 +23,19 @@ These are some outstanding questions I had based on the Ruby Koans:
  - How does the _inject_ method work in the about_iteration koan?
  - I'm having trouble following the about_sandwich koan
  - I'm curious if there is a more efficient solution to the about_scoring_project than I came up with
+ - Not sure I totally follow the _super_ method in about_inheritance. It just looks for a method with a matching name from the parent class?
 
 These are the Koans I would like to review more closely:
 
  - about_exceptions
  - about_blocks
  - about_classes
+ - about_open_classes
+ - about_modules
+ - about_scope
+ - about_class_methods
+ - about_message_passing
+ - about_proxy_object_project
 
 Note: looks like theres a [Ruby Koans YouTube series](https://www.youtube.com/watch?v=H0jPLFE17do&list=PL3vpzVxKa3PiKKQf5HeXJJGZO-M1MVyfi) that walks through each koan
 
